@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {box-sizing: border-box;}
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+.Name {
+  padding: 70px 25px;
+  width: 100%;
+  background: #f398ca;
+  text-align: center;
+}
+
+.Name ul {
+  margin: 0;
+  padding: 0;
+}
+
+.Name ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.Name .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+
+.Birthday {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #ddd;
+  text-align: center;
+}
+
+.Birthday li {
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+.address {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+  text-align: center;
+}
+
+.address li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+}
+
+.address li .active {
+  padding: 5px;
+  background: #f398ca;
+  color: white !important
+}
+
+/* Add media queries for smaller screens */
+@media screen and (max-width:720px) {
+  .Birthday li, .address li {width: 13.1%;}
+}
+
+@media screen and (max-width: 420px) {
+  .Birthday li, .days li {width: 12.5%;}
+  .days li .active {padding: 2px;}
+}
+
+@media screen and (max-width: 290px) {
+  .Birthday li, .address li {width: 12.2%;}
+}
+</style>
+</head>
+<body>
+    <img src="cat.jpg" alt="meow" style=" border-radius:50%; 200px; width: 200px; position: relative; left: 45%;">
+<div class="Name">      
+  <ul>
+    <li>
+      Kiara Mae<br>
+      <span style="font-size:18px">Ragodo</span>
+    </li>
+  </ul>
+</div>
+
+    <h3 style="text-align: center;">
+      September 2, 2005
+    </h3>
+
+
+<ul class="address">  
+   <li >090 West Boloc Boloc Sibulan Negros Oriental</li>
+</ul>
+
+</body>
+</html>
